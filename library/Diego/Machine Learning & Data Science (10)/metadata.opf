@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">10</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">f5b148cc-66b5-4713-8cb1-35b80963bbf3</dc:identifier>
+        <dc:title>Machine Learning &amp; Data Science</dc:title>
+        <dc:creator opf:file-as="Unknown" opf:role="aut">Diego</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.14.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:description>Explicación y aplicaciones.</dc:description>
+        <dc:publisher>GitBook</dc:publisher>
+        <dc:language>spa</dc:language>
+        <meta content="{&quot;Diego&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2018-01-28T18:36:46.698465+00:00" name="calibre:timestamp"/>
+        <meta content="Machine Learning &amp; Data Science" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Portada" type="cover"/>
+    </guide>
+</package>

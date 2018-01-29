@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">7</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">0035cc01-72c4-495a-a555-5c0583903df1</dc:identifier>
+        <dc:title>Professional Node JS for developers</dc:title>
+        <dc:creator opf:file-as="Unknown" opf:role="aut">Tal Avissar</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (3.14.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+        <dc:description>An in depth e-book that covers node.JS internals and Node.JS API.
+This comprehensive book teach you the Node.JS internals in no time.</dc:description>
+        <dc:publisher>GitBook</dc:publisher>
+        <dc:language>eng</dc:language>
+        <meta content="{&quot;Tal Avissar&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2018-01-28T18:36:39.005401+00:00" name="calibre:timestamp"/>
+        <meta content="Professional Node JS for developers" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Portada" type="cover"/>
+    </guide>
+</package>
