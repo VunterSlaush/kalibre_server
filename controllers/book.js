@@ -25,6 +25,7 @@ async function findById(id) {
     const books = [book];
     await putAuthors(books);
     await putLinks(books);
+    await putDownloadLinks(books);
     await putExtraInfo(books[0]);
     return books[0];
   } catch (e) {
@@ -50,6 +51,11 @@ async function putAuthors(books) {
 function putLinks(books) {
   for (var i in books) {
     books[i].cover = `library/${books[i].path}/cover.jpg`;
+  }
+}
+
+function putDownloadLinks(books) {
+  for (var i in books) {
     var files = Finder.from(`library/${books[i].path}`).findFiles("*.epub");
     const index = files[0].indexOf("library");
     const len = files[0].length;
