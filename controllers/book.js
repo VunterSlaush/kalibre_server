@@ -38,12 +38,15 @@ async function putAuthors(books) {
     const booksAuthor = await BookAuthor.findAll({
       where: { book: books[i].id }
     });
-    books[i].authors = [];
+    books[i].authors = "";
     for (var j in booksAuthor) {
       const autor = await Author.findOne({
         where: { id: booksAuthor[j].author }
       });
-      if (autor) books[i].authors.push(autor.name.trim());
+      if (autor) {
+        books[i].authors += autor.name.trim();
+        if (j < booksAuthor.length - 1) books[i].authors += ", ";
+      }
     }
   }
 }
